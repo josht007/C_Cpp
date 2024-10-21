@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+
+int main() {
+   
+    /* Writing files
+    FILE *pF = fopen("test.txt", "a");
+
+    fprintf(pF, "It worked");
+
+    fclose(pF);
+    */
+
+    /* Removing files
+    if( remove("test.txt") ){
+        printf("The file was deleted");
+    }else{
+        printf("The file was not deleted");
+    }
+   
+    */
+
+   /* Reading files
+    FILE *pF = fopen("test.txt", "r");
+    char buffer[255];
+    while(fgets(buffer, 255, pF) != NULL){
+        
+        printf("%s", buffer);
+    }
+
+    fclose(pF);
+
+    return 0; 
+    */
+}
